@@ -1,0 +1,157 @@
+body {
+    font-family: cursive;
+    background-color: #f2f2f2;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: #333;
+    color: #fff;
+    text-align: left;
+    padding: 20px;
+    display: flex;
+    align-items: center;
+}
+
+h1 {
+    margin: 0;
+}
+
+.quadrado {
+    max-width: 800px;
+    margin: 20px;
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+}
+
+h2 {
+    color: #333;
+}
+
+p {
+    color: #666;
+}
+
+img {
+    width: 90px;
+    float: left;
+    margin-right: 20px;
+    margin-top: -2px;
+
+}
+
+.cadastro {
+    margin-left: auto;
+    margin: 0 auto;
+
+}
+
+.cadastro a img {
+    color: #fff;
+    text-decoration: none;
+    width: 120px;
+}
+
+.cadastro a img:hover {
+    color: #fff;
+    text-decoration: none;
+    width: 120px;
+    background-color: rgb(88, 88, 88);
+    border-radius: 30px;
+}
+
+.linha-vertical.right {
+    left: auto;
+    right: 0;
+}
+
+.linha-vertical {
+    display: none;
+    position: fixed;
+    height: 100%;
+    background-color: #1f1f1f;
+    top: 0;
+    left: 0;
+}
+
+@media (min-width: 768px) {
+    .linha-vertical {
+        display: block;
+    }
+
+    .linha-vertical.right {
+        display: block;
+    }
+}
+
+.botao-cadastro {
+    background-color: transparent;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    border: 2px solid #0074D9;
+    height: 40px;
+}
+
+.h2cadas>a {
+    margin-top: -1000px;
+    color: white;
+    text-decoration: none;
+}
+
+.botao-cadastro:hover {
+    background-color: transparent;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    border: 2px solid #0ed145;
+    height: 40px;
+}
+
+.h2cadas>a:hover {
+    margin-top: -20px;
+    color: #51a367;
+    text-decoration: none;
+}
+
+header>h1,
+img {
+    margin-top: -10px;
+}
+
+body {
+    font-family: cursive;
+    background-color: #f2f2f2;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: #333;
+    color: #fff;
+    text-align: left;
+    padding: 20px;
+    margin: 0 auto;
+    width: 1000px;
+}
+
+.quadrado {
+    margin: 20px auto;
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0 0 1000px rgba(4, 90, 23, 0.3);
+    width: 1000px;
+    height: 1000px;
+}
+
+.quadrado2,
+.quadrado3 {
+    display: none;
+}

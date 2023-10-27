@@ -1,0 +1,83 @@
+body {
+    font-family: cursive;
+    background-color: #f2f2f2;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: #333;
+    color: #fff;
+    text-align: left;
+    padding: 30px;
+    margin: 0 auto;
+    width: 1000px;
+}
+
+.formulario-cadastro {
+    margin: 20px auto;
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0 0 1000px rgba(4, 90, 23, 0.4);
+    width: 400px;
+    height: 400px;
+    text-align: center;
+    align-items: center;
+}
+
+.cadastro {
+    margin: 0 auto;
+}
+
+input {
+    width: 300px;
+    height: 30px;
+    font-size: 20pt;
+}
+
+label {
+    font-size: 20pt;
+}
+
+button {
+    background-color: #0ed145;
+    color: white;
+    border-radius: 30px;
+    width: 200px;
+    font-size: 20pt;
+    text-align: center;
+    margin-top: 20px;
+}
+
+.botao-cadastro {
+    background-color: transparent;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 100px;
+    cursor: pointer;
+    border: 2px solid #0074D9;
+    height: 40px;
+}
+
+.botao-cadastro:hover {
+    background-color: transparent;
+    color: black;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 100px;
+    cursor: pointer;
+    border: 2px solid #0ed145;
+    height: 40px;
+}
+
+.h2cadas>a {
+    border-color: #0074D9;
+    color: #333;
+    text-decoration: none;
+}
+
+.h2cadas>a:hover {
+    color: #51a367;
+    text-decoration: none;
+}
